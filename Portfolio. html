@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Portfolio</title>
+<style>
+body,h1,h2,h3,p
+{
+background-color:pink;
+text-align:center;
+margin:0;
+padding:0;
+}
+
+body
+{
+font-family:Arial,sans-serif;
+}
+
+header
+{
+text-align:center;
+padding:20px;
+}
+
+header h1
+{
+font-size:32px;
+color:#333;
+}
+
+section
+{
+margin:20px;
+}
+
+section img
+{
+max-width:100%;
+}
+
+#about
+{
+text-align:center;
+padding:20px;
+}
+
+#skills ul
+{
+list-style:none;
+display:flex;
+justify-content:center;
+margin:20px 0;
+}
+
+#skills img
+{
+margin:0 10px;
+max-width:100px;
+}
+
+.project
+{
+text-align:center;
+margin:20px 0;
+padding:20px;
+}
+
+.projects h2
+{
+text-align:center;
+font-size:24px;
+color:#333;
+}
+
+#Certificates
+{
+text-align:center;
+padding:20px;
+}
+
+#Certificates img
+{
+max-width:100%;
+}
+
+#resume a
+{
+display:block;
+margin-top:20px;
+text-align:center;
+font-size:18px;
+color:#007bff;
+text-decoration:none;
+}
+
+#contact
+{
+text-align:center;
+padding:20px;
+}
+
+footer
+{
+text-align:center;
+padding:10px 0;
+color:#fff;
+}
+</style>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<img src="C:\Users\admin\Pictures\download.png">
+    <header>
+        <h1>C ADARSHA</h1>
+        <p>Hello everyone!!!It's me C ADARSHA currently studying in Bachelor Engineering in the field of CSE(ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING).I have deep passion for 
+technology,web development.I have worked on some projects.</p>
+    </header>
+
+    <section id="about">
+        <img src="C:\Users\admin\Pictures\download.jpeg" alt="C ADARSHA">
+        <p>Hi all. As u all know myself C ADARSHA and currently pursuing in B.E in the field of CSE(ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING.I have deep passion for
+technology ,web development.And I have worked on some projects and took part in some of the courses and got certified.And I am very glad to say that Im 
+interseted in many of the things to get learned from many of the people to get to know new things,new technology.My professional skills are HTML,CSS,Bootstrap...</p>
+    </section>
+
+    <section id="skills">
+        <h1>Skills</h1>
+        <ul>
+            <img src="C:\Users\admin\Pictures\download (1).jpeg">
+            <img src="C:\Users\admin\Pictures\download (2).jpeg">
+            <img src="C:\Users\admin\Pictures\images.png">
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h1>Projects</h1>
+        <div class="project">
+            <h3>QUIZ APPLICATION</h3>
+            <p>It helps reinforce fundamental programming concepts and provides hands-on experience. Quiz application provides facility to attempt quiz anywhere and anytime.
+ It save time since user does need to wait for result. So user cannot wait for the result. All user get extra knowledge and skills.
+Administrator has a privilege to put as much as question in given Quiz in application. User can register, log-in to attempt Quiz. 
+In conclusion, this project allows you to practice user input handling, data structures for questions and answers, and basic logic for scoring. 
+Overall, building a quiz application in Java is a practical way to enhance your coding skills and gain valuable experience in software development.</p>
+        </div>
+        <div class="project">
+            <h3>Election Voting System</h3>
+            <p>The "Election Voting System" is a C program designed to facilitate the process of conducting elections by automating various tasks. 
+This program allows voters to cast their votes for a predefined list of candidates and provides administrators with tools to manage the election process.
+Overall,the "Election Voting System"aim is to design the election process and to provide a convenient way for voters to participate in democratic decision making. 
+It is easy task to get a comprehensive solution for conducting elections so that we can find out  easy vote counts through this project ..
+</p>
+        </div>
+    </section>
+
+   <section id="Certificates">
+   <h1>Certificates</h1>
+   <div class="Certificates">
+<img src="C:\Users\admin\Pictures\WhatsApp Image 2023-11-15 at 19.15.35_0d6ed8ee.jpg" width="900" height="550" alt="certificate" border="0"><br><br>
+<img src="C:\Users\admin\Pictures\WhatsApp Image 2023-11-15 at 19.30.44_d00fb661.jpg" width="900" height="550" alt="certificate" border="0">
+
+    <section id="resume">
+        <h1>Resume</h1>
+        <a href="C:\Users\admin\Pictures\C's Resume.pdf" download>Download Resume (PDF)</a>
+    </section>
+
+    <section id="contact">
+        <h1>Contact</h1>
+        <p>Hospet,Karnataka</p>
+        <p>583201</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 C ADARSHA</p>
+    </footer>
+</body>
+</html>
